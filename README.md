@@ -14,31 +14,24 @@ The purpose of this portfolio is to present my professional background and proje
 - Skills
 - Projects
 - Contact
-
 ## Screenshots
 ### Home
-![Home](public/screenshots/home.png)  
-*Alt text: Home section of the portfolio.*
+![Home section of the portfolio](public/screenshots/home.png)
 
 ### About
-![About](public/screenshots/about.png)  
-*Alt text: About section of the portfolio.*
+![About section of the portfolio](public/screenshots/about.png)
 
 ### Experience
-![Experience](public/screenshots/experience.png)  
-*Alt text: Experience section of the portfolio.*
+![Experience section of the portfolio](public/screenshots/experience.png)
 
 ### Skills
-![Skills](public/screenshots/skills.png)  
-*Alt text: Skills section of the portfolio.*
+![Skills section of the portfolio](public/screenshots/skills.png)
 
 ### Projects
-![Projects](public/screenshots/projects.png)  
-*Alt text: Projects section of the portfolio.*
+![Projects section of the portfolio](public/screenshots/projects.png)
 
 ### Contact
-![Contact](public/screenshots/contact.png)  
-*Alt text: Contact section of the portfolio.*
+![Contact section of the portfolio](public/screenshots/contact.png)
 
 ## Features
 - Fully responsive design
