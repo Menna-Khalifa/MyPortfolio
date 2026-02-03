@@ -1,149 +1,115 @@
-# My Portfolio 🌐
+# My Portfolio
 
-A personal portfolio website built with **React** and **Vite** to showcase projects, skills, experience, and contact information.
+Live Demo: https://fabulous-granita-a79b39.netlify.app/
 
----
+## Project Description
+This is a personal portfolio single-page application built with React and Vite. It showcases my work and skills in a fully responsive design, utilizing a component-based architecture.
 
-## 🔍 Overview
 
-- Modern, responsive single-page portfolio
-- Sections: `Hero`, `About`, `Experience`, `Skills`, `Projects`, `Contact`, and `Navbar`
-- Includes simple scroll/entry animations (see `src/utils/reveal.js`) and icon support via `react-icons`
+## Overview
+The purpose of this portfolio is to present my professional background and projects. The sections included are:
+- Home
+- About
+- Experience
+- Skills
+- Projects
+- Contact
 
----
+## Screenshots
+### Home
+![Home](public/screenshots/home.png)  
+*Alt text: Home section of the portfolio.*
 
-## 🚀 Features
+### About
+![About](public/screenshots/about.png)  
+*Alt text: About section of the portfolio.*
 
-- Clean, component-based React structure
-- Responsive layout for mobile and desktop
-- Easy to customize content and styles
-- ESLint configured for code quality
+### Experience
+![Experience](public/screenshots/experience.png)  
+*Alt text: Experience section of the portfolio.*
 
----
+### Skills
+![Skills](public/screenshots/skills.png)  
+*Alt text: Skills section of the portfolio.*
 
-## 🧰 Tech Stack
+### Projects
+![Projects](public/screenshots/projects.png)  
+*Alt text: Projects section of the portfolio.*
 
-- **React** (v19)
-- **Vite** (development build tool)
-- **React Icons**
-- **ESLint**
+### Contact
+![Contact](public/screenshots/contact.png)  
+*Alt text: Contact section of the portfolio.*
 
----
+## Features
+- Fully responsive design
+- Smooth navigation
+- Simple scroll reveal animations
+- Component-based architecture
+- Utilizes react-icons
+- Linting with ESLint
 
-## ⚙️ Getting Started
+## Tech Stack
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- React Icons
+- ESLint
 
+## Getting Started
 ### Prerequisites
-
-- Node.js (LTS recommended)
+- Node.js LTS
 - npm
 
-### Install
-
-```bash
+### Installation
+Run the following command to install the necessary packages:
+```
 npm install
 ```
 
-### Development
-
-```bash
+### Run Locally
+To run the application locally, use:
+```
 npm run dev
 ```
+Access the application at: [http://localhost:5173](http://localhost:5173)
 
-Open http://localhost:5173 (or the port shown by Vite).
-
-### Build
-
-```bash
+### Build for Production
+To build the application for production, use:
+```
 npm run build
 ```
 
-### Preview built site
+## Project Structure
+```
+public/
+└── screenshots/
+    ├── home.png
+    ├── about.png
+    ├── experience.png
+    ├── skills.png
+    ├── projects.png
+    └── contact.png
+src/
+├── assets/         # Images, icons, etc.
+├── components/     # React components
+├── styles/         # Global and component CSS files
+└── utils/          # Utility functions
 
-```bash
-npm run preview
 ```
 
-### Lint
+## Customization
+To customize the portfolio, edit the components located in the `src/components` directory, adjust styles in the `src/App.css` and individual component CSS files, and replace screenshots in the `public/screenshots` folder.
 
-```bash
-npm run lint
-```
+## Deployment
+This portfolio can be deployed using platforms such as Netlify, Vercel, or GitHub Pages.
 
----
+## Author
+**Name:** Menna Khalifa  
+**Title:** Frontend Developer  
+**GitHub:** https://github.com/Menna-Khalifa  
+**LinkedIn:** https://www.linkedin.com/in/menna-khalifa-amer/
+ 
 
-## 📁 Project Structure
-
-```
-├─ public/
-├─ src/
-│  ├─ assets/
-│  ├─ components/
-│  │  ├─ About/
-│  │  ├─ Contact/
-│  │  ├─ Experience/
-│  │  ├─ Hero/
-│  │  ├─ Navbar/
-│  │  ├─ Projects/
-│  │  └─ Skills/
-│  ├─ styles/
-│  └─ utils/
-│     └─ reveal.js
-├─ index.html
-├─ package.json
-└─ vite.config.js
-```
-
----
-
-## 🔧 Customization
-
-- Edit component content in `src/components/*` to update text, links or project cards
-- Update styles in `src/styles/` and component CSS files
-- Replace images in `public/images/` or add new assets to `src/assets/`
-
----
-
-## 📦 Deployment
-
-This is a static site after build and can be deployed to platforms like **Vercel**, **Netlify**, or any static hosting provider. Build with `npm run build` and follow the hosting provider's instructions.
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Open a pull request
-
-Please keep changes small and focused. Run `npm run lint` and ensure the app builds.
-
----
-
-## 📝 License
-
-This project is unlicensed by default. Add a license (e.g., **MIT**) if you want to make it open-source.
-
----
-
-## ✉️ Contact
-
-Update this section with your contact info so visitors or recruiters can reach you.
-
-> **Tip:** Add a demo link or screenshots to make the README more engaging.
-
----
-
-*Generated and tailored for your Vite + React portfolio project.*
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## License
+This project is for personal/portfolio use only.
