@@ -35,7 +35,7 @@ const projectsData = [
       "/images/4.png",
       "/images/5.png"
     ],
-    github: "https://github.com/Menna-Khalifa/Hotel_Reservation_System",
+    github: "https://github.com/mohamedali559/Bookify-Hotel-Reservation-System",
     live: "https://dynamic-nougat-30bc4c.netlify.app/"
   }
 ];
