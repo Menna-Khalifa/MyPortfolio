@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import profile from "../../assets/photo_2025-09-02_18-28-16.jpg";
+const profile = "/images/photo_2026-03-23_15-07-08.jpg";
 import { FaFileAlt, FaPaperPlane, FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 export default function Hero() {
